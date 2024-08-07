@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
+	"github.com/gin-gonic/gin"
+	"github.com/joho/godotenv"
 	"log"
 	"os"
 	"waitlist/db"
 	"waitlist/middleware"
 	"waitlist/routes"
-	"github.com/gin-gonic/gin"
-	"github.com/joho/godotenv"
 )
 
 func main() {
